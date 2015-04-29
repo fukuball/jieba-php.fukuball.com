@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'WelcomeController@index');
+Route::post('/jieba-process', 'WelcomeController@jiebaProcess');
 
 Route::get('home', 'HomeController@index');
 

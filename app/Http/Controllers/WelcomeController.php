@@ -1,5 +1,9 @@
 <?php namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+use Fukuball\Jieba;
+use Fukuball\Finalseg;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -30,7 +34,29 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return view('jieba-php');
+	}
+
+	/**
+	 * jiebaProcess
+	 *
+	 * @return Response
+	 */
+	public function jiebaProcess(Request $request)
+	{
+
+		ini_set('memory_limit', '1024M');
+
+		$paragraph = $request->input('paragraph');
+
+		Jieba::init();
+		Finalseg::init();
+
+		$seg_list = Jieba::cut($paragraph);
+		$paragraph_processed = implode(' / ', $seg_list);
+
+		return $paragraph_processed;
+
 	}
 
 }
