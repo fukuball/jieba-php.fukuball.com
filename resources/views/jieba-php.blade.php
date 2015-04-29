@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <style>
     body {
-      min-height: 2000px;
       padding-top: 70px;
     }
     </style>
