@@ -45,7 +45,7 @@ class WelcomeController extends Controller {
 	public function jiebaProcess(Request $request)
 	{
 
-		ini_set('memory_limit', '1024M');
+		ini_set('memory_limit', '600M');
 
 		$paragraph = $request->input('paragraph');
 
