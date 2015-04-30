@@ -49,7 +49,10 @@ class WelcomeController extends Controller {
 
 		$paragraph = $request->input('paragraph');
 
-		Jieba::init();
+		Jieba::init(array(
+			'mode'=>'default',
+            'dict'=>'samll'
+		));
 		Finalseg::init();
 
 		$seg_list = Jieba::cut($paragraph);
