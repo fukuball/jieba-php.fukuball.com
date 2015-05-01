@@ -13,6 +13,9 @@ jieba-php 展示網站 [jieba-php.fukuball.com](http://jieba-php.fukuball.com)
 > heroku buildpack:set https://github.com/heroku/heroku-buildpack-php
 > git push heroku master
 ```
+資料來源：
+* [Laravel 5 - Deploy to Heroku](https://www.youtube.com/watch?v=uaKpcEG0PYU)
+* [DEPLOY A HEROKU CON LARAVEL 5](https://www.youtube.com/watch?v=uaKpcEG0PYU)
 
 License
 =========
