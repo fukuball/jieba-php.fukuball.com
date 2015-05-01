@@ -5,6 +5,14 @@ jieba-php 展示網站 [jieba-php.fukuball.com](http://jieba-php.fukuball.com)
 
 [jieba-php](https://github.com/fukuball/jieba-php) "結巴" PHP 中文分詞、中文斷詞展示網站
 
+發佈至 Heroku
+=========
+```bash
+> heroku login
+> heroku create my-name-app-heroku
+> heroku buildpack:set https://github.com/heroku/heroku-buildpack-php
+> git push heroku master
+```
 
 License
 =========
