@@ -13,6 +13,7 @@
 
 Route::get('/', 'WelcomeController@index');
 Route::post('/jieba-process', 'WelcomeController@jiebaProcess');
+Route::get('/iv-plugin', 'WelcomeController@ivPlugin');
 
 Route::get('home', 'HomeController@index');
 

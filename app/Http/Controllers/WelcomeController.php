@@ -62,4 +62,14 @@ class WelcomeController extends Controller {
 
 	}
 
+	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function ivPlugin()
+	{
+		return view('iv-plugin');
+	}
+
 }
