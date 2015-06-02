@@ -67,9 +67,13 @@ class WelcomeController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function ivPlugin()
+	public function ivPlugin(Request $request)
 	{
-		return view('iv-plugin');
+
+		$thing_type = $request->input('thing_type');
+		$thing_id = $request->input('thing_id');
+
+		return view('iv-plugin', ['thing_type' => $thing_type, 'thing_id' => $thing_id]);
 	}
 
 }
