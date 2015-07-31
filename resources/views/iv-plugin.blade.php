@@ -58,4 +58,6 @@
 <br />
 <iframe src="http://dev.indievox.com/play/disc/9082?width=385&height=260" width="385" height="260" scrolling="no" frameborder="no" marginwidth="0" marginheight="0"></iframe>
 <br />
-<iframe src="http://www.indievox.com/play/disc/9082?width=540&height=700&use_style=large" width="540" height="700" scrolling="no" frameborder="no" marginwidth="0" marginheight="0"></iframe>
+<iframe src="http://dev.indievox.com/play/disc/9082?width=540&height=700&use_style=large" width="540" height="700" scrolling="no" frameborder="no" marginwidth="0" marginheight="0"></iframe>
+<br />
+<iframe src="http://dev.indievox.com/play/disc/9082?width=300&height=460&use_style=small" width="300" height="460" scrolling="no" frameborder="no" marginwidth="0" marginheight="0"></iframe>
