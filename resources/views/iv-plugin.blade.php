@@ -30,3 +30,20 @@
      data-height="115"
      data-action="iv-music-purchase">
 </div>
+<br />
+<div class="iv-plugin"
+     data-thing-type="disc"
+     data-thing-id="1"
+     data-layout="sticker-w"
+     data-width="180"
+     data-height="65"
+     data-action="iv-music-purchase">
+</div>
+<div class="iv-plugin"
+     data-thing-type="disc"
+     data-thing-id="2"
+     data-layout="sticker-b"
+     data-width="180"
+     data-height="65"
+     data-action="iv-music-purchase">
+</div>
