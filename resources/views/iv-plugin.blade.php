@@ -47,3 +47,11 @@
      data-height="65"
      data-action="iv-music-purchase">
 </div>
+<div class="iv-plugin"
+     data-thing-type="song"
+     data-thing-id="1"
+     data-layout="sticker-w"
+     data-width="180"
+     data-height="65"
+     data-action="iv-music-purchase">
+</div>
