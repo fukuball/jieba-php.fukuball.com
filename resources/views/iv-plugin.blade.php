@@ -10,11 +10,23 @@
      data-thing-type="song"
      data-thing-id="1"
      data-layout="default"
+     data-width="500"
+     data-height="115"
      data-action="iv-music-purchase">
 </div>
 <div class="iv-plugin"
      data-thing-type="song"
      data-thing-id="2"
      data-layout="default"
+     data-width="500"
+     data-height="115"
+     data-action="iv-music-purchase">
+</div>
+<div class="iv-plugin"
+     data-thing-type="disc"
+     data-thing-id="1"
+     data-layout="default"
+     data-width="500"
+     data-height="115"
      data-action="iv-music-purchase">
 </div>
