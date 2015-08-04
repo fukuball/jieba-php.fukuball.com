@@ -56,7 +56,14 @@
      data-action="iv-music-purchase">
 </div>
 <br />
-<iframe src="http://dev.indievox.com/play/disc/9082?width=385&height=260" width="385" height="260" scrolling="no" frameborder="no" marginwidth="0" marginheight="0"></iframe>
+<div class="iv-plugin"
+     data-thing-type="disc"
+     data-thing-id="9082"
+     data-layout="player-o"
+     data-width="385"
+     data-height="260"
+     data-action="iv-music-purchase">
+</div>
 <br />
 <br />
 <iframe src="http://dev.indievox.com/play/disc/9082?width=540&height=700&use_style=large" width="540" height="700" scrolling="no" frameborder="no" marginwidth="0" marginheight="0"></iframe>
