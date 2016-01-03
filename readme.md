@@ -2,9 +2,21 @@ jieba-php 展示網站 [jieba-php.fukuball.com](http://jieba-php.fukuball.com)
 ========
 [![Build Status](https://travis-ci.org/fukuball/jieba-php.svg?branch=master)](https://travis-ci.org/fukuball/jieba-php)
 [![Latest Stable Version](https://poser.pugx.org/fukuball/jieba-php/v/stable.png)](https://packagist.org/packages/fukuball/jieba-php)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/fukuball/jieba-php/master/LICENSE)
 
 [jieba-php](https://github.com/fukuball/jieba-php) "結巴" PHP 中文分詞、中文斷詞展示網站
 
+發佈至 Heroku
+=========
+```bash
+> heroku login
+> heroku create my-name-app-heroku
+> heroku buildpack:set https://github.com/heroku/heroku-buildpack-php
+> git push heroku master
+```
+資料來源：
+* [Laravel 5 - Deploy to Heroku](https://www.youtube.com/watch?v=uaKpcEG0PYU)
+* [DEPLOY A HEROKU CON LARAVEL 5](https://www.youtube.com/watch?v=uaKpcEG0PYU)
 
 License
 =========

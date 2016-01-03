@@ -228,12 +228,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fukuball/jieba-php.git",
+<<<<<<< HEAD
                 "reference": "b5998ec36d8e34ef65f5c4d362676316b856e82b"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/fukuball/jieba-php/zipball/b5998ec36d8e34ef65f5c4d362676316b856e82b",
                 "reference": "b5998ec36d8e34ef65f5c4d362676316b856e82b",
+=======
+                "reference": "dcd53b3441dde7da1fc866b2fabc259de181a928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fukuball/jieba-php/zipball/dcd53b3441dde7da1fc866b2fabc259de181a928",
+                "reference": "dcd53b3441dde7da1fc866b2fabc259de181a928",
+>>>>>>> 857ee1de4956c9cc5d87f966f5c05b3f99b63938
                 "shasum": ""
             },
             "require": {
@@ -264,7 +273,15 @@
                 }
             ],
             "description": "結巴中文分詞（PHP 版本）：做最好的 PHP 中文分詞、中文斷詞組件",
+<<<<<<< HEAD
             "time": "2015-04-30 21:26:39"
+=======
+            "keywords": [
+                "Jieba",
+                "php"
+            ],
+            "time": "2015-05-01 20:58:33"
+>>>>>>> 857ee1de4956c9cc5d87f966f5c05b3f99b63938
         },
         {
             "name": "ircmaxell/password-compat",

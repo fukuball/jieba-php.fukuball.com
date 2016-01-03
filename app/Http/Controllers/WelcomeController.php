@@ -62,4 +62,18 @@ class WelcomeController extends Controller {
 
 	}
 
+	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function ivPlugin(Request $request)
+	{
+
+		$thing_type = $request->input('thing_type');
+		$thing_id = $request->input('thing_id');
+
+		return view('iv-plugin', ['thing_type' => $thing_type, 'thing_id' => $thing_id]);
+	}
+
 }
