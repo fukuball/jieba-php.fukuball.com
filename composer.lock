@@ -228,12 +228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fukuball/jieba-php.git",
-                "reference": "f387dc95684fa2eab970b368af5a8324dd1cf681"
+                "reference": "b5998ec36d8e34ef65f5c4d362676316b856e82b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fukuball/jieba-php/zipball/f387dc95684fa2eab970b368af5a8324dd1cf681",
-                "reference": "f387dc95684fa2eab970b368af5a8324dd1cf681",
+                "url": "https://api.github.com/repos/fukuball/jieba-php/zipball/b5998ec36d8e34ef65f5c4d362676316b856e82b",
+                "reference": "b5998ec36d8e34ef65f5c4d362676316b856e82b",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +264,7 @@
                 }
             ],
             "description": "結巴中文分詞（PHP 版本）：做最好的 PHP 中文分詞、中文斷詞組件",
-            "time": "2015-04-29 14:11:29"
+            "time": "2015-04-30 21:26:39"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -2319,16 +2319,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.6.5",
+            "version": "4.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1c54dd1d9a782d7c8715bb3604cde7b6e23c2614"
+                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1c54dd1d9a782d7c8715bb3604cde7b6e23c2614",
-                "reference": "1c54dd1d9a782d7c8715bb3604cde7b6e23c2614",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3afe303d873a4d64c62ef84de491b97b006fbdac",
+                "reference": "3afe303d873a4d64c62ef84de491b97b006fbdac",
                 "shasum": ""
             },
             "require": {
@@ -2387,7 +2387,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-04-29 05:04:43"
+            "time": "2015-04-29 15:18:52"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
