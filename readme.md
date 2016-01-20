@@ -1,8 +1,11 @@
 jieba-php 展示網站 [jieba-php.fukuball.com](http://jieba-php.fukuball.com)
 ========
 [![Build Status](https://travis-ci.org/fukuball/jieba-php.svg?branch=master)](https://travis-ci.org/fukuball/jieba-php)
+[![Coverage Status](https://coveralls.io/repos/fukuball/jieba-php/badge.svg?branch=master)](https://coveralls.io/r/fukuball/jieba-php?branch=master)
+[![codecov.io](http://codecov.io/github/fukuball/jieba-php/coverage.svg?branch=master)](http://codecov.io/github/fukuball/jieba-php?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/fukuball/jieba-php/v/stable.png)](https://packagist.org/packages/fukuball/jieba-php)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/fukuball/jieba-php/master/LICENSE)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/89d87e6b3b5f4f2882652afbff068bd6)](https://www.codacy.com/app/fukuball/jieba-php-fukuball-com)
+[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)
 
 [jieba-php](https://github.com/fukuball/jieba-php) "結巴" PHP 中文分詞、中文斷詞展示網站
 
