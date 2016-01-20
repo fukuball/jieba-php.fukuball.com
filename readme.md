@@ -1,7 +1,6 @@
 jieba-php 展示網站 [jieba-php.fukuball.com](http://jieba-php.fukuball.com)
 ========
 [![Build Status](https://travis-ci.org/fukuball/jieba-php.svg?branch=master)](https://travis-ci.org/fukuball/jieba-php)
-[![Coverage Status](https://coveralls.io/repos/fukuball/jieba-php/badge.svg?branch=master)](https://coveralls.io/r/fukuball/jieba-php?branch=master)
 [![codecov.io](http://codecov.io/github/fukuball/jieba-php/coverage.svg?branch=master)](http://codecov.io/github/fukuball/jieba-php?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/fukuball/jieba-php/v/stable.png)](https://packagist.org/packages/fukuball/jieba-php)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/89d87e6b3b5f4f2882652afbff068bd6)](https://www.codacy.com/app/fukuball/jieba-php-fukuball-com)
