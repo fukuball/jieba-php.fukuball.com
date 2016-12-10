@@ -6,7 +6,9 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "5.0.*",
-		"fukuball/jieba-php": "0.23"
+		"fukuball/jieba-php": "dev-master",
+		"sentry/sentry": "^1.6",
+		"sentry/sentry-laravel": "^0.5.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
