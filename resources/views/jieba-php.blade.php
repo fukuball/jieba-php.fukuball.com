@@ -7,7 +7,7 @@
     <meta name="description" content="http://jieba-php.fukuball.com, jieba-php 中文斷詞線上展示網站。I am fukuball, CTO of iNDIEVOX 獨立音樂網, the largest indie music web site in Taiwan. / I'm also a happy guitar player." />
     <meta name="author" content="Fukuball" />
     <meta name="keywords" content="fukuball, Fukuball Lin, 林志傑" />
-    <link rel="icon" href="http://www.fukuball.com/public/image/favicon.ico?v1" />
+    <link rel="icon" href="http://www.fukuball.com/favicon.ico?v1" />
     <title>jieba-php 中文斷詞線上展示網站</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -93,8 +93,8 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-    <script src="http://www.fukuball.com/public/javascript/library/form/jquery.form.js"></script>
-    <script src="http://www.fukuball.com/public/javascript/library/jquery-simply-countable/jquery.simplyCountable.js"></script>
+    <script src="/js/jquery.form.js"></script>
+    <script src="/js/jquery-simply-countable/jquery.simplyCountable.js"></script>
     <script>
       $(document).ready(function(){
 
