@@ -83,6 +83,16 @@
         </div>
       </section>
 
+      <div style="margin-top:20px; margin-bottom: 20px;">
+        <script type="text/javascript" src="//js1.bloggerads.net/ShowBanner.aspx?blogid=20161207000006"></script>
+        <style>
+        #BA_AD_1 {
+            margin-left:auto;
+            margin-right:auto;
+        }
+        </style>
+      </div>
+
     </div> <!-- /container -->
 
 
