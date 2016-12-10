@@ -59,7 +59,7 @@
         </h2>
         <div class="well row">
           <form id="jieba-process-form" name="jieba_process_form" accept-charset="utf-8" action="/jieba-process" method="post">
-            <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
+            <input type="hidden" id="_token" name="_token" value="{{ csrf_token() }}">
             <div class="form-group">
               <textarea style="font-size: 30px;line-height: 50px;" class="form-control col-xs-12 col-sm-12 col-md-12 col-lg-12" id="paragraph" name="paragraph" placeholder="請輸入要斷詞的短文，限140字短文" rows="5">怜香惜玉也得要看对象啊！</textarea>
               <div class="help-block hide">
@@ -92,7 +92,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <script src="/js/jquery.form.js"></script>
     <script src="/js/jquery.simplyCountable.js"></script>
     <script>

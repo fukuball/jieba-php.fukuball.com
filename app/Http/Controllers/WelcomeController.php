@@ -1,79 +1,67 @@
-<?php namespace App\Http\Controllers;
+<?php
+
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Fukuball\Jieba;
-use Fukuball\Finalseg;
+use Fukuball\Jieba\Jieba;
+use Fukuball\Jieba\Finalseg;
 
 class WelcomeController extends Controller {
 
-	/*
-	|--------------------------------------------------------------------------
-	| Welcome Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller renders the "marketing page" for the application and
-	| is configured to only allow guests. Like most of the other sample
-	| controllers, you are free to modify or remove it as you desire.
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Welcome Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller renders the "marketing page" for the application and
+    | is configured to only allow guests. Like most of the other sample
+    | controllers, you are free to modify or remove it as you desire.
+    |
+    */
 
-	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
-	public function __construct()
-	{
-		$this->middleware('guest');
-	}
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('web');
+    }
 
-	/**
-	 * Show the application welcome screen to the user.
-	 *
-	 * @return Response
-	 */
-	public function index()
-	{
-		return view('jieba-php');
-	}
+    /**
+     * Show the application welcome screen to the user.
+     *
+     * @return Response
+     */
+    public function index()
+    {
+        return view('jieba-php');
+    }
 
-	/**
-	 * jiebaProcess
-	 *
-	 * @return Response
-	 */
-	public function jiebaProcess(Request $request)
-	{
+    /**
+     * jiebaProcess
+     *
+     * @return Response
+     */
+    public function jiebaProcess(Request $request)
+    {
 
-		ini_set('memory_limit', '600M');
+        ini_set('memory_limit', '600M');
 
-		$paragraph = $request->input('paragraph');
+        $paragraph = $request->input('paragraph');
 
-		Jieba::init(array(
-			'mode'=>'default',
+        Jieba::init(array(
+            'mode'=>'default',
             'dict'=>'samll'
-		));
-		Finalseg::init();
+        ));
+        Finalseg::init();
 
-		$seg_list = Jieba::cut($paragraph);
-		$paragraph_processed = implode(' / ', $seg_list);
+        $seg_list = Jieba::cut($paragraph);
+        $paragraph_processed = implode(' / ', $seg_list);
 
-		return $paragraph_processed;
+        return $paragraph_processed;
 
-	}
-
-	/**
-	 * Show the application welcome screen to the user.
-	 *
-	 * @return Response
-	 */
-	public function ivPlugin(Request $request)
-	{
-
-		$thing_type = $request->input('thing_type');
-		$thing_id = $request->input('thing_id');
-
-		return view('iv-plugin', ['thing_type' => $thing_type, 'thing_id' => $thing_id]);
-	}
+    }
 
 }
