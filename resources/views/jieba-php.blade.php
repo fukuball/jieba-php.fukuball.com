@@ -94,7 +94,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
     <script src="/js/jquery.form.js"></script>
-    <script src="/js/jquery-simply-countable/jquery.simplyCountable.js"></script>
+    <script src="/js/jquery.simplyCountable.js"></script>
     <script>
       $(document).ready(function(){
 
